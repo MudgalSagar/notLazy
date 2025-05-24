@@ -1,0 +1,85 @@
+/* App.css - Dark Theme */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #00adb5;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #00adb5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #019ca3;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: #2a2a2a;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list li span {
+  flex: 1;
+  cursor: pointer;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-list li button {
+  background-color: #ff4c4c;
+}
+
+.task-list li button:hover {
+  background-color: #e04343;
+}
